@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Ping Pong</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+
+  <body>
+    <div class="media">
+      <div class="overlay">
+        <p class="name">PingPong</p>
+        <a href="#game"><img src="images/pingpong.png"  class="img-responsive" style="display:inline" alt="ASHPHALT" width="75%" height="400" id="start"></a>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="game" class="col-md-8 bg-1">
+          <div class="content">
+            <h1><b>LETS PLAY!</b></h1>
+            <h3><b>Rules:</b></h3>
+            <p>PingPong will count upto your number from 1 with the following exceptions:
+            </p>
+            <ol>
+              <li>Numbers divisible by 3 are replaced with "ping"</li>
+              <li>Numbers divisible by 5 are replaced with "pong"</li>
+              <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+            </ol>
+            <br><br>
+            <h4>Enter your number here: </h4>
+            <form id="ping-pong">
+              <input type="text" id="number">
+              <button type="submit" class="bttn">PING PONG</button>
+            </form>
+
+            <ul id="output">
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 side">
+          <div class="content">
+            <h1>About Ping Pong</h1><br>
+            <h3>Created By: <em>Nicholas Muchiri</em></h3>
+            <h3>Level 2 Test for:</h3>
+            <h4>Javascript</h4><br>
+            <h3><a href="https://github.com/nicholasmuchiri"><i class="fa fa-github" aria-hidden="true" style="font-size:60px; color:green;"></i></a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </body>
+
+</html>
