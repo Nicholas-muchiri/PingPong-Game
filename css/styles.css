@@ -27,8 +27,9 @@ li{
     background:rgba(0,0,0,0.7);
 }
 #start{
-    padding-top: 100px;
-    margin-left: 45%;
+    padding-top: 55px;
+    margin-left: 20%;
+    position: centre;
 }
 .name{
     padding-top: 50px;
